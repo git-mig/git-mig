@@ -1,0 +1,173 @@
+body{	
+	font-family:calibri;
+}
+
+h1, h2, h3, p{	
+	color:firebrick;
+}
+
+/* Cabecera */
+
+			
+header{	
+	width:100%;
+}
+			
+header img{	
+	float:left;
+	height:100px;
+	margin-left:80px;
+}
+
+nav{
+	width:40%;
+	float:right;
+}
+
+header nav ul li{	
+	display:block;
+	float:left;
+	padding:10px;
+	color:firebrick;
+}
+			
+header nav ul li:hover{	
+	background-color:firebrick;
+	text-decoration:none;
+	display:inline;
+	color:white;
+	padding:10px;
+	border-radius:5px 5px 5px 5px;
+}
+						
+header nav ul li:link{	
+	background-color:firebrick;
+	text-decoration:none;
+	display:inline;
+	color:white;
+	padding:10px;
+	border-radius:5px 5px 5px 5px;
+}
+
+header nav ul li:visited{	
+	background-color:firebrick;
+	text-decoration:none;
+	display:inline;
+	color:white;
+	padding:10px;
+	border-radius:5px 5px 5px 5px;
+}
+
+h1{	
+	text-align:center;
+	padding-top:30px;
+}
+	
+	
+/* Principal */	
+
+
+h2{
+	text-align:center;
+}
+
+main{
+	clear:both;
+	width:60%;
+	margin:auto;
+	padding:50px;
+}
+
+
+/* Contacto */
+
+form article{
+	width:410px;
+	display:block;
+	margin:auto;
+}
+
+input{
+	width:400px;
+}
+
+textarea{
+	width:400px;
+	height:150px;
+}
+
+/* Animal */
+
+#principal img{
+	border-radius:5px;
+	box-shadow:0px 0px 15px silver;
+	height:300px;
+	display:block;
+	margin:auto;
+}
+
+p{
+	clear:both;
+}
+
+.animal{
+	height:120px;
+	overflow:hidden;
+	width:33%;
+	float:left;
+	display:block;
+	margin-bottom:50px;
+}
+
+#animal img{
+	width:100%;
+	float:left;
+	margin-left:10px;
+}
+
+
+/* Lista */
+			
+
+.foto{
+	border-radius:5px;
+	box-shadow:0px 0px 15px silver;
+	width:300px;
+	display:block;
+	margin:auto;
+}			
+
+
+h3 a:link{	
+	text-decoration:none;
+	color:firebrick;
+}
+			
+h3 a:visited{
+	text-decoration:none;
+	color:firebrick;
+}
+
+h3 a:link{
+	text-decoration:none;
+	color:firebrick;
+}
+
+h3 a:visited{
+	text-decoration:none;
+	color:firebrick;
+}
+			
+
+/* footer */
+
+
+footer{	
+	clear:both;
+	text-align:center;
+	font-family: 'Indie Flower', cursive;
+}
+
+footer p{
+	color:black;
+}
